@@ -1,0 +1,116 @@
+.about-header {
+  align-self: center;
+  position: absolute;
+  color: #343a40;
+  width: 100%;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.line-about {
+  border-color: #20c997;
+  width: 80px;
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-bottom: 2px solid #20c997;
+}
+
+.know-me-more {
+  color: #dee3e4;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.position-about {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.about-content1 {
+  width: 50%;
+}
+
+.content1-header {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.mzwandile-stuurman {
+  color: #20c997;
+}
+
+.about-content2 {
+  color: #4c4d4d;
+}
+
+.name {
+  margin-right: 0.5rem;
+  margin-bottom: 40px;
+  color: #4c4d4d;
+}
+
+.about-content-p {
+  color: #4c4d4d;
+  margin-bottom: 60px;
+}
+
+.content1-header {
+  margin-bottom: 30px;
+}
+
+.about-content1 {
+  margin-bottom: auto;
+}
+
+.email {
+  margin-bottom: 40px;
+  color: #4c4d4d;
+}
+
+.contact-number {
+  margin-bottom: 40px;
+  color: #4c4d4d;
+}
+
+.font-green {
+  color: #4c4d4d;
+  font-weight: 500;
+}
+
+.about-btn {
+  text-decoration: none;
+  color: #20c997;
+  border-color: #20c997;
+  padding: 0.8rem 2.6rem;
+  font-weight: 500;
+  border-width: 2px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-style: solid;
+  border-radius: 50rem;
+  margin-top: 3rem;
+}
+
+.about-btn:hover {
+  background-color: #20c997;
+  color: #fff;
+  transition-duration: 0.5s;
+}

@@ -1,0 +1,98 @@
+.education-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex !important;
+}
+
+.education-heading1 {
+  color: #dee3e4;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.education-paragraph {
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 2.25rem;
+  color: #343a40;
+  margin-bottom: 0;
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+}
+
+.edu-line {
+  border-color: #20c997;
+  width: 80px;
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-bottom: 2px solid #20c997;
+}
+
+.timeline-container {
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 10% 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.item1 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  border-radius: 10px;
+  background-color: #dee3e4;
+  justify-self: start !important;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  border-radius: 10px;
+  background-color: #dee3e4;
+  justify-self: end !important;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  border-radius: 10px;
+  background-color: #dee3e4;
+  justify-self: start !important;
+}
+.item4 {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  border-radius: 10px;
+  background-color: #dee3e4;
+  justify-self: end !important;
+}
+
+.line {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  background-color: #20c997;
+  width: 10px;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.timeline-items {
+  color: #343a40;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-delay: 1s;
+}

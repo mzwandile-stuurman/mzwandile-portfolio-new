@@ -1,0 +1,79 @@
+.experience-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex !important;
+}
+
+.experience-text1 {
+  color: #dee3e4;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.experience-text2 {
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 0;
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+}
+
+.experience-line {
+  border-color: #20c997;
+  width: 80px;
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-bottom: 2px solid #20c997;
+}
+
+.rhino-time {
+  background: #20c997;
+  color: #fff;
+  text-shadow: none;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.rhino-heading {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #343a40;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-content-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education-btn {
+  display: flex;
+  justify-content: center;
+}
+.rhino-position {
+  color: #343a40;
+}
